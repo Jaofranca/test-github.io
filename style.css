@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+
+    font-family: sans-serif;
+    background: radial-gradient(circle, rgba(13,55,105,1) 12%, rgba(8,35,69,1) 85%);
+}
+ul{
+    list-style-type: none;
+    overflow:hidden;
+    background-color: #6a62cc;
+
+}
+li{
+    float:left;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+}
+li a{
+    display:block;
+    color:#ffdd59;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    transition:0.25s;
+
+
+}
+li a:hover{
+    background-color: #111;
+}
+    
+.carteira{
+    width:100px;
+    background:rgba(241, 238, 27, 0.808);
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.descrição{
+    font-size:15px;
+    text-align: center;
+}
+.dinheiro{
+    font-size:20px;
+    text-align: center;
+}
+.rodapé{
+    color: white;
+    font-family: Bebas-neue;
+    font-size: 16px;
+    position: absolute;
+    top : 92%
+     
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#6a84cc;
+    text-align: center;
+    border-radius: 20px;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    
+}
+.box input[type = "text"],.box input[type = "number"]{
+    border: 0;
+
+    background : none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f39c12;
+    padding: 14px 10px; 
+    width: 200px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:hover,.box input[type = "number"]:hover{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+.box button{
+    border: 0;
+    background : none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    padding: 14px 40px;
+    position: relative; 
+    left: -5px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box button:hover{
+    background: #2ecc71; 
+}
